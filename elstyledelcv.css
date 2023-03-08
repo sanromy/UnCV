@@ -1,0 +1,108 @@
+* {
+    box-sizing:border-box ;
+    margin:0 ;
+    padding:0 ;
+}
+
+/* tipografía roboto */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#hero {
+    background-image: url(unoEncuatro.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: .8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+section#hero h1{
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 4rem;
+    align-items: right;
+    position: absolute;
+}
+section#hero h2{
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size:  2rem; 
+    position: absolute; 
+    top: 90%;
+   left: 70%;
+}
+
+h2{
+    font-size:  2rem;
+    justify-content: center;
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+
+section {
+    height: 80vh;
+}
+
+
+.proyect_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.proyect_detail{
+    border: 5px solid gray;
+    width: 300px; 
+    margin: 15px;
+}
+.proyect_detail img{
+    width: 100%;
+}
+
+section#contact{
+    /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* diseño del formulario */
+  padding: 9px;
+  /*border: 1px solid #CCC; OJO no sirve para lo que quiero*/
+  border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: rgb(5, 5, 37);
+    align-items: right center;
+}
+
+button#boton{
+    color: blue;
+    background-color: lightblue;
+    font-style: oblique;
+    border-color: blue;
+}

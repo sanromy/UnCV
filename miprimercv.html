@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer CV en HTML- lo estoy haciendo</title>
+    <!--esta es la hoja de estilos-->
+    <link rel="stylesheet" href="elstyledelcv.css">
+    <!--este es el icono-->
+    <link rel="icon" type="image/x-icon" href="utensils-solid.svg">
+    
+    <!--esto es la letra roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <p id="demo">¿Porqué me tendrías que contratar?</p>
+    <button type="button" id="boton">Hacé click acá</button>
+    <script src="sinta.js"></script>
+    <header>
+        <nav>
+            <ul>
+                 <!--estas listas CUANDO SEPA van a linkear a distintos lados-->
+                <li>Home</li>
+                <li>Materias Primas</li>
+                <li>Recetas</li>
+                <li>Fotografía</li>
+                <li>Alumnos capaces</li>
+                <li>Como me formé</li>
+                <!--<li><button onclick="Contacto()">Contacto</button></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <main></main>
+
+    <section id="hero">
+
+        <h1>Don Thomas</h1>
+        <h2>Mago Culinario</h2>
+
+        <!-- acá también va la <img src="unoEncuatro.jpg" alt="Distintas fases del cocinero">-->
+    </section>
+
+    <section id="proyects">
+        <h2>Te muestro mi magia</h2>
+        <div class="proyect_list">
+            <div class="proyect_detail">
+                <img src="laquinta.jpg" alt="Una quinta de verduras para un restó">
+                <h3>Cultivamos nuestras materias primas</h3>
+                <p>La importancia de tener materia prima orgánica y fresca hace la diferencia a la hora de preparar y enseñar a preparar mis recetas. </p>
+                <a href="https://www.argentina.gob.ar/desarrollosocial/prohuerta"> Enlace a consejos huerta propia en espacios reducidos </a>
+            </div>
+        
+
+            <div class="proyect_detail">
+                <img src="haciendo.jpg" alt="Preparamos con amor todas las comidas">
+                <h3>Cada receta es una obra de arte</h3>
+                <p>A mis comesales les propongo asistir con ganas de saborear un buen plato de comida; a mis alumnos les pido que antes de inscribirse piensen si pueden cocinar con el alma. Si su respuesta es sí, nada les impedirá ser grandes chefs. </p>
+                <a href="https://rosegalfione.com/dias-festivos/cocinar-con-amor/"> Enlace a cocinar con amor </a>
+            </div>
+
+            <div class="proyect_detail">
+                <img src="EnseCompl.jpg" alt="Fotografiando los platos">
+                <h3>Fotos reales de cada plato</h3>
+                <p>No solo es importante preparar con exactitud y amor una comida... tambien debemos presentarla como ella lo amerita. </p>
+                <a href="https://www.canva.com/es_mx/aprende/10-trucos-fotos-de-comida-tentadoras/"> Enlace a consejos para fotear bienn los platos</a>
+            </div>
+
+            <div class="proyect_detail">
+                <img src="alumnosPract.jpg" alt="Alumnos aprendices haciendo fotos">
+                <h3>Cada aprendiz sabrá como sacara las mejores fotos sin pagar a un experto</h3>
+                <p>Si estudias en mi cocina, sabrás como potenciar su celular para hacer fotos profesionales de tus presentaciones.</p>
+                <a href="https://www.xatakandroid.com/listas/21-consejos-imprescindibles-para-hacer-buenas-fotos-con-tu-movil-android"> Enlace a consejos para sacar buenas fotos </a>
+            </div>
+        ></div>   
+    </section>
+    
+    <section id="contact">
+        <form action="#" method="post">
+
+        <h2>Contactame</h2>
+        <form action="">
+            <div>
+                <label>Nombre</label>
+                <input type="text"
+                placeholder="Escribe tu nombre">
+            </div>
+
+            <div>
+                <label>Apellido</label>
+                <input type="text" placeholder="Escribe tu apellido">
+            </div>
+
+            <div>
+                <label>Inquietud</label>
+                <textarea></textarea>
+            </div>
+
+            <div>
+                    <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer></footer>
+</body>
+
+</html>
